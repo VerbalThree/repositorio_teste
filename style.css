@@ -1,7 +1,10 @@
 body {
-    background-color: darkgoldenrod;
-    color: gray;
+    background-color: gray;
+    color: white;
+    font-family: sans-serif;
 }
+
+/* Start of nav bar */
 
 ul {
     background-color: #333;
@@ -16,16 +19,6 @@ ul {
 
 li {
     float: left;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-}
-
-li:first-child {
-    border-left: none;
-}
-
-li:last-child{
-    border-right: none;
 }
 
 a {
@@ -46,5 +39,56 @@ li a:hover{
 }
 
 .active{
-    background-color: yellow;
+    background-color: green;
+    color: white;
+}
+
+/* End of nav bar */
+
+#Hello {
+    text-align: center;
+    font-size: 150px;
+}
+
+#lorem {
+    text-align: center;
+    font-size: 18px;
+}
+
+#link-another-page {
+    text-align: center;
+    color: white;
+}
+
+#hello-censored {
+    width: 300px;
+    height: 230px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 6s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+font-size: 50px;
+text-align: center;
+}
+
+@keyframes example {
+    0% {background-color: red; left: 0px;}
+    25% {background-color: yellow; left: 0px; }
+    50% {background-color: blue; left: 1605px;}
+    75% {background-color: pink; left: 0px;}
+    100% {background-color: red; left: 0px;}
+}
+
+#oops {
+font-size: 25px;
+text-align: center;
+}
+
+#dont {
+    font-size: 15px;
+    text-align: center;
+    color: #484040;
 }
