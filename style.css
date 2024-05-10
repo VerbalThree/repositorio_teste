@@ -228,7 +228,7 @@ top: 160px;
     text-align: center;
     position: relative;
     top: 215px;
-    height: 865px;
+    height: 1270px;
   }
 
   .patch-notes-phrase {
@@ -269,4 +269,23 @@ top: 160px;
   #before-phrase {
     position:relative;
     top: -5px;
+  }
+
+  #article-3-image {
+    width: 500px;
+  }
+
+  #article-3-phrase {
+    position: relative;
+    top: -5px;
+  }
+
+  .article-3-date {
+    position: relative;
+    top: -15px;
+  }
+
+  .article-3-paragraph {
+    position: relative;
+    top: -20px;
   }
