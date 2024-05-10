@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="hollowknight-2.jpg">
+    <title>Patch Notes</title>
+</head>
+<body>
+    
+    <!-- Nav Bar -->
+    <div id="navbar">
+        <a href="#default" id="logo">repository_test</a>
+        <div id="navbar-right">
+            <a href="index.html">Home</a>
+            <a href="contact-page.html">Contact</a>
+            <a href="another-page.html">Another Page</a>
+            <a class="active" href="patch-notes.html">Patch Notes</a>
+            <a href="#support">Support</a>
+        </div>
+    </div>
+
+    <!-- Main Box-->
+    <main class="patch-notes-box">
+        <header class="patch-notes-phrase"><b>Patch Notes</b></header>
+        <article>
+            <h1 class="article-2">Update of navbar</h2>
+                <h6 class="article-2-date">5/10/2024 - 2:12 PM</h6>
+                <p class="article-2-paragraph">The navbar has been updated.</p>
+            </article>
+            <article>
+                <h1 class="article-1">Creation of Patch Notes</h1>
+                <h6 class="article-1-date">5/10/2024 - 1:00 PM (the first patch note!)</h6>
+            <p class="article-1-paragraph">This is the creation of the Patch Notes page.</p>
+            </article>
+    </main>
+    <footer class="patch-notes-footer">
+
+
+    </footer>
+    <script>
+        
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction(){
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+                document.getElementById("navbar").style.padding = "30px 10px";
+                document.getElementById("logo").style.fontSize = "25px";
+            } else {
+                document.getElementById("navbar").style.padding = "80px 10px";
+                document.getElementById("logo").style.fontSize = "35px"
+            }
+        }
+    </script>
+</body>
+</html>
