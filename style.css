@@ -10,7 +10,7 @@ body {
 #navbar {
   overflow: hidden;
   background-color: #f1f1f1;
-  padding: 70px 10px;
+  padding: 65px 10px;
   transition: 0.4s;
   position: fixed;
   width: 98%;
@@ -227,8 +227,8 @@ top: 160px;
     padding: 20px;
     text-align: center;
     position: relative;
-    top: 240px;
-    height: 325px;
+    top: 215px;
+    height: 865px;
   }
 
   .patch-notes-phrase {
@@ -256,4 +256,17 @@ top: 160px;
   .article-2-paragraph {
     position: relative;
     top: -20px;
+  }
+
+  #article-2-image {
+    width: 500px;
+  }
+
+  #article-2-image-2 {
+    width: 500px;
+  }
+
+  #before-phrase {
+    position:relative;
+    top: -5px;
   }
