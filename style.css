@@ -30,6 +30,7 @@ body {
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+  transition: 0.3s;
 }
 
 /* Style the logo */
@@ -41,8 +42,8 @@ body {
 
 /* Links on mouse-over */
 #navbar a:hover{
-background-color: #ddd;
-color: black;
+background-color: #bba4a4;
+
 }
 
 /*Style the active/current link */
@@ -229,8 +230,8 @@ top: 160px;
     padding: 20px;
     text-align: center;
     position: relative;
-    top: 215px;
-    height: 2055px;
+    top: 185px;
+    height: 2375px;
   }
 
   .patch-notes-phrase {
@@ -304,4 +305,32 @@ top: 160px;
   .article-4-paragraph {
     position: relative;
     top: -20px;
+  }
+
+  .article-5-date {
+    position: relative;
+    top: -15px;
+  }
+
+  .article-5-paragraph {
+    position: relative;
+    top: -20px;
+  }
+
+  .before-5 {
+    width: 500px;
+  }
+
+  .after-5 {
+    width: 500px;
+  }
+
+  .before-article-5 {
+    position: relative;
+    top: -5px;
+  }
+
+  .after-article-5 {
+    position: relative;
+    top: -5px;
   }
