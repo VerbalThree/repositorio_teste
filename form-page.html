@@ -15,11 +15,40 @@
             <input type="text" placeholder="Enter Email" name="Email" required>
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter your password" id="myInput" name="psw" required><br><br>
+            <p id="shift"><b>The Shift is on</b></p>
+            <p id="caps"><b>The Caps Lock is on</b></p>
             <input id="checkbox-psw" type="checkbox" onclick="myFunction()"><b id="checkbox-text">Show Password</b>
             <button type="submit" class="btn">Login</button>
         </form>
     </div>
     <script>
+        /* Start of Detect Caps or Shift*/
+        var input = document.getElementById("myInput");
+        var text = document.getElementById("shift");
+
+        input.addEventListener("keydown", function(event){
+            if(event.shiftKey){
+                text.style.display = "block";
+            }
+        });
+
+        input.addEventListener("keyup", function(event){
+            if(!event.shiftKey){
+                text.style.display = "none";
+            }
+        });
+
+        var text_2 = document.getElementById("caps");
+        input.addEventListener("keyup", function(event){
+            if(event.getModifierState("CapsLock")){
+                text_2.style.display = "block";
+            } else {
+                text_2.style.display = "none";
+            }
+        });
+        /* End of Detect Caps or Shift */
+
+        /* Start of Show Password */
         function myFunction() {
             var x = document.getElementById("myInput");
             if (x.type === "password"){
@@ -28,6 +57,7 @@
                 x.type = "password";
             }
         }
+        /* End of Show Password */
     </script>
 </body>
 </html>

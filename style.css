@@ -231,7 +231,7 @@ top: 160px;
     text-align: center;
     position: relative;
     top: 185px;
-    height: 2695px;
+    height: 3480px;
   }
 
   .patch-notes-phrase {
@@ -363,3 +363,22 @@ top: 160px;
     width: 500px;
   }
   /* END OF THE FUNCTION OF ARTICLES */
+
+  .article-7-date {
+    position: relative;
+    top: -15px;
+  }
+
+  .article-7-paragraph {
+    position: relative;
+    top: -20px;
+  }
+
+  .look-7 {
+    position: relative;
+    top: -5px;
+  }
+  
+  .article-7-image {
+    width: 500px;
+  }
