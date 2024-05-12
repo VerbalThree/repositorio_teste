@@ -231,7 +231,7 @@ top: 160px;
     text-align: center;
     position: relative;
     top: 185px;
-    height: 2375px;
+    height: 2695px;
   }
 
   .patch-notes-phrase {
@@ -334,3 +334,32 @@ top: 160px;
     position: relative;
     top: -5px;
   }
+/* START OF THE FUNCTION OF THE ARTICLES */
+  .article-6-date {
+    position: relative;
+    top: -15px;
+  }
+
+  .article-6-paragraph {
+    position: relative;
+    top: -20px;
+  }
+
+  .before-article-6 {
+    position: relative;
+    top: -5px;
+  }
+  
+  .after-article-6 {
+    position: relative;
+    top: -5px;
+  }
+
+  .before-6 {
+    width: 500px;
+  }
+
+  .after-6 {
+    width: 500px;
+  }
+  /* END OF THE FUNCTION OF ARTICLES */
