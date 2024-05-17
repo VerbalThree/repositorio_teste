@@ -74,6 +74,8 @@ background-color: #bba4a4;
 /* End of nav bar */
 
 #Hello {
+    position: relative;
+    top: 75px;
     text-align: center;
     font-size: 150px;
 }
@@ -231,7 +233,7 @@ top: 160px;
     text-align: center;
     position: relative;
     top: 185px;
-    height: 3480px;
+    height: 3366px;
   }
 
   .patch-notes-phrase {
@@ -240,145 +242,52 @@ top: 160px;
     font-size: 40px;
   }
 
-  .article-1-date {
+  .patch-notes-box img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+
+   /* Curves */
+   .curve {
+    position: absolute;
+    bottom: -2768px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.curve svg {
     position: relative;
-    top: -15px;
-  }
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
 
-  .hello-phrase-index {
-    position: relative;
-    top: 125px;
-    text-align: center;
-  }
+.curve .shape-fill {
+    fill: #FFFFFF;
+}
 
-  .article-2-date {
-    position: relative;
-    top: -15px;
-  }
+.credits{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  z-index: 1;
+  position: relative;
+  bottom: -220px;
+  left: 845px;
+  border-radius: 4px;
+}
 
-  .article-2-paragraph {
-    position: relative;
-    top: -20px;
-  }
-
-  #article-2-image {
-    width: 500px;
-  }
-
-  #article-2-image-2 {
-    width: 500px;
-  }
-
-  #before-phrase {
-    position:relative;
-    top: -5px;
-  }
-
-  #article-3-image {
-    width: 500px;
-  }
-
-  #article-3-phrase {
-    position: relative;
-    top: -5px;
-  }
-
-  .article-3-date {
-    position: relative;
-    top: -15px;
-  }
-
-  .article-3-paragraph {
-    position: relative;
-    top: -20px;
-  }
-
-  #article-4-image {
-    width: 500px;
-  }
-
-  .article-4-date {
-    position: relative;
-    top: -15px;
-  }
-
-  .article-4-paragraph {
-    position: relative;
-    top: -20px;
-  }
-
-  .article-5-date {
-    position: relative;
-    top: -15px;
-  }
-
-  .article-5-paragraph {
-    position: relative;
-    top: -20px;
-  }
-
-  .before-5 {
-    width: 500px;
-  }
-
-  .after-5 {
-    width: 500px;
-  }
-
-  .before-article-5 {
-    position: relative;
-    top: -5px;
-  }
-
-  .after-article-5 {
-    position: relative;
-    top: -5px;
-  }
-/* START OF THE FUNCTION OF THE ARTICLES */
-  .article-6-date {
-    position: relative;
-    top: -15px;
-  }
-
-  .article-6-paragraph {
-    position: relative;
-    top: -20px;
-  }
-
-  .before-article-6 {
-    position: relative;
-    top: -5px;
-  }
+.credits:hover {
+  background-color: #bba4a4;
+  color: black;
   
-  .after-article-6 {
-    position: relative;
-    top: -5px;
-  }
-
-  .before-6 {
-    width: 500px;
-  }
-
-  .after-6 {
-    width: 500px;
-  }
-  /* END OF THE FUNCTION OF ARTICLES */
-
-  .article-7-date {
-    position: relative;
-    top: -15px;
-  }
-
-  .article-7-paragraph {
-    position: relative;
-    top: -20px;
-  }
-
-  .look-7 {
-    position: relative;
-    top: -5px;
-  }
-  
-  .article-7-image {
-    width: 500px;
-  }
+}
